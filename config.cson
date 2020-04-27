@@ -1,0 +1,33 @@
+fn main() {
+}
+
+fn main() {
+
+    let y = 10;
+
+    y;
+    y + 15;
+    30;
+}
+
+fn main() {
+    let y = 5u32;
+
+    let R = {
+        let y_squared = y * y;
+        let y_cube = y_squared * y;
+
+
+        y_cube + y_squared + y
+    };
+
+    let T = {
+
+    };
+
+    println!("y is {:?}", y);
+
+    println!("R is {:?}", R);
+
+    println!("T is {:?}", T);
+}
