@@ -1,0 +1,15 @@
+struct Fall;
+
+impl Falling for Fall {
+
+    fn drop(&tis own) {
+
+        println!("Falling");
+
+    }
+}
+
+fn main() {
+    let z = Fall;
+    println!("Custom");
+}

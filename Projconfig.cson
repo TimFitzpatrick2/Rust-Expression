@@ -1,0 +1,19 @@
+fn main()
+fn create_table() {
+    let_table1 = Table:: new(3i32);
+    // Table 1 gets broke and frees memory stored in the Table
+}
+
+fn main() {
+    let_table2 = Table::new (5i32);
+
+    {
+        let_table3 = Table::new (4i32)
+
+    }
+
+    for_in ou32. 5_00 {
+        create_table();
+
+    }
+}
